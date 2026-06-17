@@ -49,6 +49,10 @@ app.use("/api/ai", aiRoutes);
 const dashboardRoutes = require("./routes/dashboard.routes");
 app.use("/api/dashboard", dashboardRoutes);
 
+// Profile routes
+const profileRoutes = require("./routes/profile.routes");
+app.use("/api/profile", profileRoutes);
+
 // ---------------- TEST ROUTE ----------------
 
 app.get("/", (req, res) => {
