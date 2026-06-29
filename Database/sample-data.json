@@ -1,0 +1,29 @@
+{
+  "users": [
+    {
+      "name": "Karthik",
+      "email": "karthik@gmail.com",
+      "password": "hashed_password_here",
+      "createdAt": "2026-06-15T00:00:00.000Z"
+    }
+  ],
+  "projects": [
+    {
+      "userId": "user_id_here",
+      "startupIdea": "Food Delivery App for Students",
+      "industry": "Food Tech",
+      "targetAudience": "College Students",
+      "createdAt": "2026-06-15T00:00:00.000Z"
+    }
+  ],
+  "reports": [
+    {
+      "userId": "user_id_here",
+      "prompt": "Food delivery app for students",
+      "result": "{\"startupName\":\"CampusBite\",\"problem\":\"Limited food options on campus\"}",
+      "score": "{\"totalScore\":82,\"reason\":\"High demand but competitive market\"}",
+      "type": "idea",
+      "createdAt": "2026-06-15T00:00:00.000Z"
+    }
+  ]
+}
